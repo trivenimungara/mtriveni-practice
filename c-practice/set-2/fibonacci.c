@@ -2,7 +2,7 @@
 void main()
 {
 	int i,n,first=0,second=1,next;
-	prinf("enter value n:");
+	printf("enter value n:");
 	scanf("%d",&n);
 	printf("enter fibonacci series:");
 	for(i=0;i<=n;i++)
@@ -19,5 +19,6 @@ void main()
 		}
 		printf("%d",next);
 	}
+	printf("\n");
 }
 
