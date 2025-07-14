@@ -43,16 +43,17 @@ int main()
                 printf("%d->",temp->data);
                 temp=temp->next;
         }
-        printf("NULL \n");
+	printf("NULL \n");
+	
         InsertAtEnd(&head,10);
-        printf("after inserting at end:\n");
-        temp=head;
-        while(temp!=NULL)
+        printf("after inserting 10 at end:\n");
+        temp = head;
+        while (temp != NULL)
         {
-                printf("%d->",temp->data);
-                temp=temp->next;
+          printf("%d->", temp->data);
+          temp = temp->next;
         }
-        printf("NULL \n");
+    printf("NULL\n"); 
         return 0;
 }
 
