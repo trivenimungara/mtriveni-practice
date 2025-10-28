@@ -1,15 +1,17 @@
 #include<stdio.h>
 int main()
 {
-        int i,n,j;
-        printf("enter rows:\n");
-        scanf("%d",&n);
-        for(i=1;i<=2*n;i++)
+        int rows,cols;
+        printf("enter no of rows:");
+        scanf("%d",&rows);
+	printf("enter no of cols:");
+	scanf("%d",&cols);
+        for(int i=0;i<rows;i++)
         {
-        for(j=1;j<=n;j++)
+        for(int j=0;j<cols;j++)
         {
-                printf("* ");
-        }
+	   printf("* ");
+	}
         printf("\n");
         }
         return 0;

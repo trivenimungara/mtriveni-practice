@@ -1,16 +1,16 @@
 #include<stdio.h>
 void main()
 {
-        int n,i,j,m;
-        printf("enter rows:\n");
-        scanf("%d",&n);
-	printf("enter columns:\n");
-	scanf("%d",&m);
-        for(i=1;i<=n;i++)
+        int rows,i,j,cols;
+        printf("enter rows:");
+        scanf("%d",&rows);
+	printf("enter columns:");
+	scanf("%d",&cols);
+        for(i=0;i<rows;i++)
         {
-                for(j=1;j<=m;j++)
+                for(j=0;j<cols;j++)
                 {
-                        if(i==1||i==n||j==1||j==m)
+                        if(i==0||i==rows-1||j==0||j==cols-1)
                         {
                                 printf("* ");
                         }
