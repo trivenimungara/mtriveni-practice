@@ -6,7 +6,8 @@ void main()
 	char str2[20];
 	printf("enter the strings:");
 	scanf("%s %s",str1,str2);
-	if(strcmp==0)
+	printf("%d",strcmp(str1,str2));
+	if(strcmp(str1,str2))
 	{
 		printf("strings are equal\n");
 	}
