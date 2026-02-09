@@ -193,22 +193,13 @@ void DHT11_Read_Data(uint8_t *temp, uint8_t *hum)
 
 4.SLAVE(STM32) CODE:
 
-/* USER CODE BEGIN Header */
-/**
-  ******************************************************************************
-  * @file           : main.c
-  * @brief          : SPI Slave receive and UART print
-  ******************************************************************************
-  */
-/* USER CODE END Header */
-
 #include "main.h"
 
-/* Private variables ---------------------------------------------------------*/
+/* Private variables */
 SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
-/* Private function prototypes -----------------------------------------------*/
+/* Private function prototypes */
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_SPI1_Init(void);
