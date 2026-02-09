@@ -20,3 +20,9 @@
 
 1.we do the loop back test to spi
 2.print the sensor data(dht11 sensor) on minicom(uart) through spi communication(stm32 microcontroller)
+
+
+9-02-26
+
+1.c practised
+2.test the rtc through via uart using stm32 mc
