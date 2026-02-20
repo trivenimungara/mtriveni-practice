@@ -26,3 +26,7 @@
 
 1.c practised
 2.test the rtc through via uart using stm32 mc
+
+20-02-26
+
+compile bb file of uboot machine file
