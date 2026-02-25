@@ -8,13 +8,8 @@ void main()
         {
                 for(k=1;k<=n-i;k++)
                         printf(" ");
-                 for(j=1;j<=2*i-1;j++)
-		 {
-			 if(j==1||i==n||i==j)
-				 printf("*");
-			 else
-				 printf("  ");
-		 }
+                 for(j=1;j<=i;j++)
+                        printf("%d ",i);
                 printf("\n");
         }
 }
